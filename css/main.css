@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.box {
+    margin-left: 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site__cards-box{
+    padding: 18px  14px 15px 14px;
+    width: 340px;
+    margin-left: 36px;
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    position: relative;
+}
+
+.site__reclam {
+    width: 200px;
+    height: 180px;
+}
+
+.site__card-text {
+    font-size: 16px;
+}
+
+.site__delate-button {
+    position: absolute;
+    top:  301px;
+    left: 282px;
+    border: none;
+    background-image: url("../img/trash3-fill.svg");
+    background-repeat: no-repeat;
+    background-color: #D9D9D9;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.new__text {
+    font-size: 14px;
+}
